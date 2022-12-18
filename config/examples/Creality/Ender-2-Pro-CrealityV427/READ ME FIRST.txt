@@ -30,7 +30,7 @@ or
 Using a new full set of 4 pin motor cables (Like the Ender 3 or the Ender 3 Pro use)
 Link: https://www.amazon.com/gp/product/B07SYJQFKR
 (This option requires more work, removing the old 5 pin motor cables, and replacing them with the new 4 pin motor cables)
-Note: You can remove the limit switch cables from the new set, the old one do not require replacing
+Note: You can remove the limit switch cables from the new set, the old ones do not require replacing
 I went with the new cables. Less chance of an adapter breaking. - The 300lb Gorilla
 
 Firmware Functions:
@@ -48,4 +48,4 @@ Firmware Functions:
 You may need to dial in your E-Steps, and here is a great online caculator to help with that:
 https://www.th3dstudio.com/estep-calculator/
 
-You can also look up on you tube on how to do this if youare not sure.
+You can also look up on you tube on how to do this if you are not sure.
