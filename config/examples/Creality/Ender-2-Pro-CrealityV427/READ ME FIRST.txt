@@ -6,7 +6,7 @@ You will want to use Marlin-bugfix-v2.0.x
 Get it here:
 https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x
 Click on the Green <>Code button, then click on Download zip 
-You do not need to download the configuration zip on github. The Configuration files are on this page and are all set to go.
+You do not need to download the configuration zip on github. The Configuration files are in this folder and are all set to go.
 Step 2:
 Place the downloaded zip file in the directory where you plan to use it from.
 Step 3:
