@@ -1,0 +1,51 @@
+All of the below steps are done with the pretence that you have already downloaded VS-Code and set that up,
+and that you know how to compile firmware.
+
+Step 1:
+You will want to use Marlin-bugfix-v2.0.x
+Get it here:
+https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x
+Click on the Green <>Code button, then click on Download zip 
+You do not need to download the configuration zip on github. The Configuration files are in this folder and are all set to go.
+Step 2:
+Place the downloaded zip file in the directory where you plan to use it from.
+Step 3:
+Extract the zip file
+Step 4:
+Copy the Platformio.ini file to the folder above the Marlin folder. Click to replace existing one.
+Step 5:
+Copy Configuration Files into the Marlin folder and click to replace existing files
+
+Start up VS-Code and compile. (I assume you already know what you are doing, so no further instructions are needed)
+
+
+
+Platformio.ini file is the same in both the Configurations Folder and the Platforio.ini File Folder
+
+Using a Creality v4.2.7 control board requires the purchase of either a 5 pin to 4 pin
+cable adapter set.
+Link: https://www.th3dstudio.com/product/ender-2-pro-stepper-motor-adapter-cable-4-pack/
+(This option requires less work, just plug the adapter cables into each motor port and plug the motor cables into the adapters)
+or
+Using a new full set of 4 pin motor cables (Like the Ender 3 or the Ender 3 Pro use)
+Link: https://www.amazon.com/gp/product/B07SYJQFKR
+(This option requires more work, removing the old 5 pin motor cables, and replacing them with the new 4 pin motor cables)
+Note: You can remove the limit switch cables from the new set, the old ones do not require replacing
+I went with the new cables. Less chance of an adapter breaking. - The 300lb Gorilla
+
+Firmware Functions:
+1. Power Loss Recovery (Off by Default)
+2. Filament Runout Sensor (Off by Default)
+3. Longer File Name Support and Scrolling.
+4. Files sorted Alphabetically, top to bottom.
+5. ABS Pre Heat has been removed due to the Ender 2 Pro not being able to print with ABS.
+6. PLA preheat temps are as follows: Hot-End 205c  Heated Bed 65c
+7. LCD Assisted Bed Leveling Features:
+   LCD Assisted 4 Corner Bed Leveling (Using paper method, and raising or lowering corners with bed wheels) Always do this before MESH BED LEVEL.
+   LCD Assisted Manual MESH Bed Leveling (Using the paper method, raise or lower nozzle using the LCD knob until paper starts to grab).
+   Z Nozzle offset setting in bed leveling menu. Always remember to save your settings after releveling your bed using the Manual Mesh Level Option.
+
+You may need to dial in your E-Steps, and here is a great online caculator to help with that:
+https://www.th3dstudio.com/estep-calculator/
+
+You can also look up on you tube on how to do this if you are not sure.
